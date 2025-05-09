@@ -1,0 +1,5 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+andres      2191  1.2 10.7 34516040 426332 ?     SLl  15:39   0:46 /opt/brave.com/brave/brave
+andres      4904  2.6  7.3 1461457696 289276 ?   Sl   15:40   1:34 /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=2193 --enable-crash-reporter=, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --disable-gpu-compositing --lang=en-US --num-raster-threads=1 --renderer-client-id=18 --time-ticks-at-unix-epoch=-1746822787477677 --launch-time-ticks=457455148 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,9971000272721557985,4972741795912767862,262144 --disable-features=EyeDropper --variations-seed-version=main@1df1dd1dedebe0864d4368bf6edf1ed49ac0cc54
+andres       909  1.8  6.9 4487096 275692 ?      Ssl  15:33   1:11 /usr/bin/gnome-shell
+andres      1127  0.2  4.8 1048364 191328 ?      Sl   15:33   0:11 /usr/bin/gnome-software --gapplication-service

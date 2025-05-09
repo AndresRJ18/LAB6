@@ -1,0 +1,93 @@
+avahi        529  0.0  0.1   7628  4096 ?        Ss   15:33   0:00 avahi-daemon: running [andres-virtual-machine.local]
+andres       793  0.0  0.2  17812 10496 ?        Ss   15:33   0:00 /lib/systemd/systemd --user
+andres       794  0.0  0.1 103956  5356 ?        S    15:33   0:00 (sd-pam)
+andres       801  0.0  0.1  49384  6528 ?        S<sl 15:33   0:00 /usr/bin/pipewire
+andres       802  0.0  0.1  33272  6528 ?        Ssl  15:33   0:00 /usr/bin/pipewire-media-session
+andres       803  0.0  0.5 1683804 22668 ?       S<sl 15:33   0:00 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+andres       807  0.0  0.2 398200  8220 ?        SLl  15:33   0:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+andres       814  0.0  0.1 172204  6144 tty2     Ssl+ 15:33   0:00 /usr/libexec/gdm-wayland-session env GNOME_SHELL_SESSION_MODE=zorin /usr/bin/gnome-session --session=zorin
+andres       817  0.0  0.1  10052  6196 ?        Ss   15:33   0:01 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+andres       821  0.0  0.3 232856 15744 tty2     Sl+  15:33   0:00 /usr/libexec/gnome-session-binary --session=zorin
+andres       867  0.0  0.1 101724  5504 ?        Ssl  15:33   0:00 /usr/libexec/gnome-session-ctl --monitor
+andres       876  0.0  0.2 250584  7936 ?        Ssl  15:33   0:00 /usr/libexec/gvfsd
+andres       884  0.0  0.1 380896  6528 ?        Sl   15:33   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+andres       886  0.0  0.4 529180 17664 ?        Ssl  15:33   0:00 /usr/libexec/gnome-session-binary --systemd-service --session=zorin
+andres       908  0.0  0.1 309660  7680 ?        Sl   15:33   0:00 /usr/libexec/at-spi-bus-launcher --launch-immediately
+andres       909  1.7  6.9 4485524 275844 ?      Ssl  15:33   1:09 /usr/bin/gnome-shell
+andres       917  0.0  0.1   8564  4480 ?        S    15:33   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus
+andres       936  0.0  0.1 245964  6272 ?        Ssl  15:33   0:00 /usr/libexec/xdg-permission-store
+andres       938  0.0  1.3 759944 51584 ?        Sl   15:33   0:00 /usr/libexec/gnome-shell-calendar-server
+andres       948  0.0  1.3 1236180 54528 ?       Ssl  15:33   0:00 /usr/libexec/evolution-source-registry
+andres       976  0.0  0.2 399508 10880 ?        Ssl  15:33   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+andres       984  0.0  0.1 247364  7168 ?        Ssl  15:33   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+andres       988  0.0  0.1 246448  6656 ?        Ssl  15:33   0:00 /usr/libexec/gvfs-goa-volume-monitor
+andres       992  0.0  0.9 597100 37248 ?        Sl   15:33   0:00 /usr/libexec/goa-daemon
+andres       999  0.0  0.3 348216 15488 ?        Sl   15:33   0:00 /usr/libexec/goa-identity-service
+andres      1002  0.0  0.1 246276  6656 ?        Ssl  15:33   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+andres      1010  0.0  0.2 325024  8320 ?        Ssl  15:33   0:00 /usr/libexec/gvfs-afc-volume-monitor
+andres      1021  0.0  1.4 1342504 55680 ?       Ssl  15:33   0:00 /usr/libexec/evolution-calendar-factory
+andres      1030  0.0  0.1 156972  5760 ?        Ssl  15:33   0:00 /usr/libexec/dconf-service
+andres      1036  0.0  1.4 932344 58112 ?        Ssl  15:33   0:00 /usr/libexec/evolution-addressbook-factory
+andres      1061  0.0  0.1 162688  7680 ?        Sl   15:33   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+andres      1063  0.0  0.6 2462656 26800 ?       Sl   15:33   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+andres      1076  0.0  0.0   2892  1536 ?        Ss   15:33   0:00 sh -c /usr/bin/ibus-daemon --panel disable $([ "$XDG_SESSION_TYPE" = "x11" ] && echo "--xim")
+andres      1077  0.0  0.1 320280  6912 ?        Ssl  15:33   0:00 /usr/libexec/gsd-a11y-settings
+andres      1080  0.0  0.6 607220 26244 ?        Ssl  15:33   0:00 /usr/libexec/gsd-color
+andres      1081  0.0  0.3 325376 12288 ?        Sl   15:33   0:01 /usr/bin/ibus-daemon --panel disable
+andres      1082  0.0  0.4 385316 16384 ?        Ssl  15:33   0:00 /usr/libexec/gsd-datetime
+andres      1085  0.0  0.2 321776  8064 ?        Ssl  15:33   0:00 /usr/libexec/gsd-housekeeping
+andres      1087  0.0  0.5 349296 22516 ?        Ssl  15:33   0:00 /usr/libexec/gsd-keyboard
+andres      1089  0.0  0.6 725420 27396 ?        Ssl  15:33   0:00 /usr/libexec/gsd-media-keys
+andres      1095  0.0  0.6 459260 26244 ?        Ssl  15:33   0:00 /usr/libexec/gsd-power
+andres      1100  0.0  0.2 259688 11264 ?        Ssl  15:33   0:00 /usr/libexec/gsd-print-notifications
+andres      1101  0.0  0.1 467672  6656 ?        Ssl  15:33   0:00 /usr/libexec/gsd-rfkill
+andres      1104  0.0  0.1 246104  6272 ?        Ssl  15:33   0:00 /usr/libexec/gsd-screensaver-proxy
+andres      1106  0.0  0.2 475668 10496 ?        Ssl  15:33   0:00 /usr/libexec/gsd-sharing
+andres      1107  0.0  0.2 395892  8448 ?        Ssl  15:33   0:00 /usr/libexec/gsd-smartcard
+andres      1116  0.0  0.2 329192  9856 ?        Ssl  15:33   0:00 /usr/libexec/gsd-sound
+andres      1124  0.0  0.5 423528 22916 ?        Ssl  15:33   0:00 /usr/libexec/gsd-wacom
+andres      1127  0.2  4.8 1048364 191328 ?      Sl   15:33   0:11 /usr/bin/gnome-software --gapplication-service
+andres      1130  0.0  0.1 173296  7296 ?        Sl   15:33   0:00 /usr/libexec/ibus-memconf
+andres      1134  0.0  0.7 354788 28188 ?        Sl   15:33   0:01 /usr/libexec/ibus-extension-gtk3
+andres      1142  0.0  0.3 192604 14336 ?        Sl   15:33   0:00 touchegg
+andres      1152  0.0  0.1 247076  7424 ?        Sl   15:33   0:00 /usr/libexec/ibus-portal
+andres      1158  0.3  0.9 147988 35676 ?        Sl   15:33   0:14 /usr/bin/vmtoolsd -n vmusr --blockFd 3 --uinputFd 4
+andres      1163  0.0  0.1 232272  7552 ?        Sl   15:33   0:00 /usr/libexec/gsd-disk-utility-notify
+andres      1185  0.0  1.9 863584 78008 ?        Sl   15:33   0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+andres      1239  0.0  0.3 352176 14848 ?        Sl   15:33   0:00 /usr/libexec/gsd-printer
+andres      1242  0.2  2.4 283624 98988 ?        S    15:33   0:10 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.6EW752 -listen 4 -listen 5 -displayfd 6 -initfd 7
+andres      1253  0.0  0.1 173432  7424 ?        Sl   15:33   0:00 /usr/libexec/ibus-engine-simple
+andres      1270  0.0  0.7 649632 30812 ?        SNsl 15:33   0:00 /usr/libexec/tracker-miner-fs-3
+andres      1293  0.0  0.3 633668 14080 ?        Ssl  15:33   0:00 /usr/libexec/xdg-desktop-portal
+andres      1299  0.0  0.1 546720  7424 ?        Ssl  15:33   0:00 /usr/libexec/xdg-document-portal
+andres      1307  0.0  0.9 686136 38780 ?        Ssl  15:33   0:00 /usr/libexec/xdg-desktop-portal-gnome
+andres      1313  0.0  0.6 2462660 27168 ?       Sl   15:33   0:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.ScreenSaver
+andres      1333  0.0  2.0 559840 82852 ?        Ssl  15:33   0:00 /usr/libexec/gsd-xsettings
+andres      1364  0.0  0.7 355192 27872 ?        Ssl  15:33   0:00 /usr/libexec/xdg-desktop-portal-gtk
+andres      1376  0.0  0.5 202168 23620 ?        Sl   15:33   0:00 /usr/libexec/ibus-x11
+andres      1402  0.0  0.2 324544  8960 ?        Sl   15:33   0:00 /usr/libexec/gvfsd-trash --spawner :1.10 /org/gtk/gvfs/exec_spaw/0
+andres      1422  0.0  0.1 172864  6528 ?        Ssl  15:33   0:00 /usr/libexec/gvfsd-metadata
+andres      1512  0.0  0.2 324184  7936 ?        Sl   15:33   0:00 /usr/libexec/gvfsd-burn --spawner :1.10 /org/gtk/gvfs/exec_spaw/1
+andres      1624  0.0  0.9 508000 37412 ?        Sl   15:34   0:00 update-notifier
+andres      1893  0.0  2.3 756644 94264 ?        Sl   15:37   0:03 /usr/bin/nautilus --gapplication-service
+andres      1898  0.0  1.6 931944 64884 ?        Sl   15:37   0:00 /usr/bin/gnome-calendar --gapplication-service
+andres      1912  0.1  1.6 647636 66364 ?        Ssl  15:37   0:05 /usr/libexec/gnome-terminal-server
+andres      2077  0.0  0.1  20852  4992 pts/0    Ss   15:37   0:00 bash
+andres      2183  0.0  0.0  19784  3584 ?        S    15:39   0:00 /bin/bash /usr/bin/brave-browser-stable
+andres      2189  0.0  0.0  18324  1920 ?        S    15:39   0:00 cat
+andres      2190  0.0  0.0  18324  1920 ?        S    15:39   0:00 cat
+andres      2191  1.2 10.6 34512184 422356 ?     SLl  15:39   0:45 /opt/brave.com/brave/brave
+andres      2193  0.0  0.0 33576564 3584 ?       Sl   15:39   0:00 /opt/brave.com/brave/chrome_crashpad_handler --monitor-self --monitor-self-annotation=ptype=crashpad-handler --database=/home/andres/.config/BraveSoftware/Brave-Browser/Crash Reports --url=https://cr.brave.com --annotation=lsb-release=Zorin OS 17.3 --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=135.1.77.97 --initial-client-fd=5 --shared-client-connection
+andres      2195  0.0  0.0 33568352 3328 ?       Sl   15:39   0:00 /opt/brave.com/brave/chrome_crashpad_handler --no-periodic-tasks --monitor-self-annotation=ptype=crashpad-handler --database=/home/andres/.config/BraveSoftware/Brave-Browser/Crash Reports --url=https://cr.brave.com --annotation=lsb-release=Zorin OS 17.3 --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=135.1.77.97 --initial-client-fd=4 --shared-client-connection
+andres      2201  0.0  1.7 33921828 70400 ?      S    15:39   0:00 /opt/brave.com/brave/brave --type=zygote --no-zygote-sandbox --crashpad-handler-pid=2193 --enable-crash-reporter=, --change-stack-guard-on-fork=enable
+andres      2202  0.0  1.7 33921816 70528 ?      S    15:39   0:00 /opt/brave.com/brave/brave --type=zygote --crashpad-handler-pid=2193 --enable-crash-reporter=, --change-stack-guard-on-fork=enable
+andres      2204  0.0  0.4 33921840 18612 ?      S    15:39   0:00 /opt/brave.com/brave/brave --type=zygote --crashpad-handler-pid=2193 --enable-crash-reporter=, --change-stack-guard-on-fork=enable
+andres      2229  0.6  4.2 34273816 166876 ?     Sl   15:39   0:24 /opt/brave.com/brave/brave --type=gpu-process --crashpad-handler-pid=2193 --enable-crash-reporter=, --change-stack-guard-on-fork=enable --gpu-preferences=UAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAABAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --shared-files --field-trial-handle=3,i,9971000272721557985,4972741795912767862,262144 --disable-features=EyeDropper --variations-seed-version=main@1df1dd1dedebe0864d4368bf6edf1ed49ac0cc54
+andres      2234  0.7  3.1 33988772 124028 ?     Sl   15:39   0:25 /opt/brave.com/brave/brave --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=2193 --enable-crash-reporter=, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,9971000272721557985,4972741795912767862,262144 --disable-features=EyeDropper --variations-seed-version=main@1df1dd1dedebe0864d4368bf6edf1ed49ac0cc54
+andres      2264  0.0  1.4 33972192 57244 ?      Sl   15:39   0:00 /opt/brave.com/brave/brave --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=utility --crashpad-handler-pid=2193 --enable-crash-reporter=, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,9971000272721557985,4972741795912767862,262144 --disable-features=EyeDropper --variations-seed-version=main@1df1dd1dedebe0864d4368bf6edf1ed49ac0cc54
+andres      3573  0.0  3.7 1459680740 148636 ?   Sl   15:40   0:00 /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=2193 --enable-crash-reporter=, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --disable-gpu-compositing --lang=en-US --num-raster-threads=1 --renderer-client-id=13 --time-ticks-at-unix-epoch=-1746822787477677 --launch-time-ticks=441307337 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,9971000272721557985,4972741795912767862,262144 --disable-features=EyeDropper --variations-seed-version=main@1df1dd1dedebe0864d4368bf6edf1ed49ac0cc54
+andres      3838  0.0  2.2 34245316 88704 ?      Sl   15:40   0:00 /opt/brave.com/brave/brave --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=2193 --enable-crash-reporter=, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,9971000272721557985,4972741795912767862,262144 --disable-features=EyeDropper --variations-seed-version=main@1df1dd1dedebe0864d4368bf6edf1ed49ac0cc54
+andres      4904  2.6  7.2 1461456864 287800 ?   Sl   15:40   1:32 /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=2193 --enable-crash-reporter=, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --disable-gpu-compositing --lang=en-US --num-raster-threads=1 --renderer-client-id=18 --time-ticks-at-unix-epoch=-1746822787477677 --launch-time-ticks=457455148 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,9971000272721557985,4972741795912767862,262144 --disable-features=EyeDropper --variations-seed-version=main@1df1dd1dedebe0864d4368bf6edf1ed49ac0cc54
+andres      4914  0.0  1.8 1459668916 73856 ?    Sl   15:40   0:00 /opt/brave.com/brave/brave --type=renderer --crashpad-handler-pid=2193 --enable-crash-reporter=, --enable-distillability-service --origin-trial-public-key=bYUKPJoPnCxeNvu72j4EmPuK7tr1PAC7SHh8ld9Mw3E=,fMS4mpO6buLQ/QMd+zJmxzty/VQ6B1EUZqoCU04zoRU= --change-stack-guard-on-fork=enable --disable-gpu-compositing --lang=en-US --num-raster-threads=1 --renderer-client-id=19 --time-ticks-at-unix-epoch=-1746822787477677 --launch-time-ticks=458457293 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,9971000272721557985,4972741795912767862,262144 --disable-features=EyeDropper --variations-seed-version=main@1df1dd1dedebe0864d4368bf6edf1ed49ac0cc54
+andres     14809  0.0  1.4 2662816 56084 ?       Sl   16:32   0:00 gjs /usr/share/gnome-shell/extensions/zorin-desktop-icons@zorinos.com/app/ding.js -E -P /usr/share/gnome-shell/extensions/zorin-desktop-icons@zorinos.com/app
+andres     14925  0.0  0.0  22484  3328 pts/0    R+   16:39   0:00 ps aux
